@@ -1,0 +1,121 @@
+*{
+  margin: 0 auto;
+}
+body{
+   font: "marriweather";
+}
+#frontpage{
+  background-color: black;
+  text-align: center;
+}
+h1{
+  font: "marriweather";
+  font-size: 70px;
+  color: white;
+
+}
+#discover{
+  color: red
+}
+#the{
+  color: white;
+
+}
+#uae{
+  color: green;
+}
+#uae_img{
+  border-radius: 50%;
+  width: 400px;
+  box-shadow: 5px 5px 20px 20px gold;
+  transition: transform 2s ease-in-out;
+}
+#uae_img:hover{
+ transform: scale(1.1) rotate(-360deg);
+}
+.tinyImg{
+  width: 300px;
+  height:200px ;
+}
+.category{
+  border: 2px solid black;
+  border-radius: 10%;
+  text-decoration: none;
+  margin: 10px;
+}
+.widget-container{
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+   
+}
+
+
+.widget-container a{
+  text-decoration: none;
+  color: black;
+  
+ 
+}
+nav{
+  position: fixed;
+  width: 100%;
+
+}
+nav ul{
+  text-align: center;
+  display:flex;
+  background-color: greenyellow;
+}
+
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+}
+.places-container{
+  display: flex;
+  position: relative;
+  top:100px;
+
+}
+
+.panel{
+  height:80vh ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  display:flex;
+  position: relative;
+  top:100px;
+  flex:1;
+  margin: 10px;
+  }
+.panel h3{
+  font-size: 23px;
+  /* position: absolute;
+  bottom: 20px;
+  left: 20px;*/
+  opacity: 0;
+}
+
+.panel:hover{
+flex:5;
+transition: flex 1s ease-in-out 0.4s;
+}
+.panel h3:hover{
+  opacity:1 ;
+  transition: opacity 100s ease-in-out 0.4s;
+}
+#daily-life{
+  background-image: linear-gradient(to right, skyblue,lightgreen)
+}
+
+
+ 
